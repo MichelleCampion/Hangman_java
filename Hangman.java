@@ -127,7 +127,8 @@ public class Hangman
         Scanner scan = new Scanner(System.in);
 
 		//array of strings from dictionary file
-        String [] dictionary = reader.load("C://Users//miche//OneDrive//Desktop//CS211//Lab5//dictionary.txt");    //Reading the File as a String array
+		// **note: you must add the location of the file dictionary.txt
+        String [] dictionary = reader.load("C:....dictionary.txt");    //Reading the File as a String array
 
 		int n = dictionary.length;
 
